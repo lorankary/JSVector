@@ -2,8 +2,9 @@
 // JSVector -- a Javascript 2D vector class
 
 // The class constructor
-function JSVector(x,y){
-
+function JSVector(x = 0,y = 0){
+    this.x = x;
+    this.y = y;
 }
 
 // Set the magnitude of the vector,
